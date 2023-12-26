@@ -1,0 +1,14 @@
+
+
+on property:persist.radio.boot.CID=*
+    exec u:r:fpconfig_utild:s0 root root -- /system_ext/bin/fpconfig_util w 1 ${persist.radio.boot.CID}
+
+on property:persist.sys.tct.tft.date=*
+    exec u:r:fpconfig_utild:s0 root root -- /system_ext/bin/fpconfig_util w 2 ${persist.sys.tct.tft.date}
+
+on property:persist.sys.locale=*
+    exec u:r:fpconfig_utild:s0 root root -- /system_ext/bin/fpconfig_util w 3 ${persist.sys.locale}
+
+on boot
+    exec u:r:fpconfig_utild:s0 root root -- /system_ext/bin/fpconfig_util r 2
+

@@ -1,0 +1,14 @@
+# qssi-user 13 TKQ1.230127.002 TT3P release-keys
+- manufacturer: fairphone
+- platform: lahaina
+- codename: FP5
+- flavor: qssi-user
+- release: 13
+- id: TKQ1.230127.002
+- incremental: TT3P
+- tags: release-keys
+- fingerprint: Fairphone/FP5/FP5:11/RKQ1.230130.001/TT3P:user/release-keys
+- is_ab: true
+- brand: Fairphone
+- branch: qssi-user-13-TKQ1.230127.002-TT3P-release-keys
+- repo: fairphone_fp5_dump

@@ -1,0 +1,10 @@
+# mfg_utild
+service mfg_utild /system_ext/bin/mfg_utild
+    seclabel u:r:mfg_utild:s0
+    class core
+    socket mfgutil seqpacket 666 root radio
+    disabled
+    group root system
+
+on property:ro.boot.inproductionflag=true
+    start mfg_utild
