@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<!-- Information to grant permissions to Orange service -->
+<config>
+  
+    <app-link package="com.orange.update" />
+	
+    <!-- If "App Center" app is installed, let it run in the background -->
+    <allow-in-power-save package="com.orange.update" />
+
+
+    <app-link package="com.orange.aura.oobe" />
+    <!-- If "OrangeManualSelector" app is installed, let it run in the background -->
+    <allow-in-power-save package="com.orange.aura.oobe"/>
+
+</config>

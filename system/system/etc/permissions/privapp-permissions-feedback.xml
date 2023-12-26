@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This XML file declares which signature|privileged permissions should be granted to
+privileged feedback.
+-->
+<permissions>
+    <privapp-permissions package="com.tct.endusertest">
+        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+        <permission name="android.permission.MOUNT_FORMAT_FILESYSTEMS"/>
+        <permission name="android.permission.CONTROL_INCALL_EXPERIENCE"/>
+    </privapp-permissions>
+</permissions>

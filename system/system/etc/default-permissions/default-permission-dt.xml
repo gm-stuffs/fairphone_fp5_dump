@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<exceptions>
+    <!-- AppSelector -->
+    <exception package="com.aura.oobe.deutsche">
+        <permission name="android.permission.POST_NOTIFICATIONS" whitelisted="true" />
+        <permission name="android.permission.INSTALL_PACKAGES" whitelisted="true" />
+    </exception>
+
+    <!-- AppEnabler -->
+    <exception package="de.telekom.tsc">
+        <permission name="android.permission.POST_NOTIFICATIONS" whitelisted="true" />
+        <permission name="android.permission.PHONE" whitelisted="true" />
+    </exception>
+</exceptions>

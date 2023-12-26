@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<!-- Information to grant permissions to DT service -->
+<config>
+  
+    <app-link package="com.aura.oobe.deutsche" />
+    <!-- If "AppSelector" app is installed, let it run in the background -->
+    <allow-in-power-save package="com.aura.oobe.deutsche"/>
+
+    <app-link package="de.telekom.tsc" />
+    <!-- If "AppEnabler" app is installed, let it run in the background -->
+    <allow-in-power-save package="de.telekom.tsc"/>
+    <allow-in-power-save-except-idle package="de.telekom.tsc"/>
+
+</config>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Information to grant permissions to Apps Orange service -->
+<permissions>
+    <privapp-permissions package="de.telekom.tsc">
+        <permission name="android.permission.INSTALL_PACKAGES" whitelisted="true"/>
+        <permission name="android.permission.READ_PHONE_STATE" />
+        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE" />
+        <permission name="android.permission.PACKAGE_VERIFICATION_AGENT"/>
+    </privapp-permissions>
+</permissions>
+

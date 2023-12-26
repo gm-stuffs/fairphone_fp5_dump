@@ -1,0 +1,56 @@
+on property:persist.radio.sim.mcc.mnc=23203
+setprop ro.oem.key2 FP5_ClientID_DT_AT
+
+on property:persist.radio.sim.mcc.mnc=23207
+setprop ro.oem.key2 FP5_ClientID_DT_AT
+
+on property:persist.radio.sim.mcc.mnc=23001
+    setprop ro.oem.key2 FP5_ClientID_DT_CZ 
+
+on property:persist.radio.sim.mcc.mnc=26201
+    setprop ro.oem.key2 FP5_ClientID_DT_DE
+
+on property:persist.radio.sim.mcc.mnc=26206
+    setprop ro.oem.key2 FP5_ClientID_DT_DE
+
+on property:persist.radio.sim.mcc.mnc=26002
+    setprop ro.oem.key2 FP5_ClientID_DT_PL
+
+on property:persist.radio.sim.mcc.mnc=20610
+    setprop ro.oem.key2 FP5_ClientID_Orange_BE
+    setprop ro.product.brand1 orange
+
+on property:persist.radio.sim.mcc.mnc=21403
+    setprop ro.oem.key2 FP5_ClientID_Orange_ES
+    setprop ro.product.brand1 orange
+
+on property:persist.radio.sim.mcc.mnc=20801
+    setprop ro.oem.key2 FP5_ClientID_Orange_FR
+    setprop ro.product.brand1 orange
+
+on property:persist.radio.sim.mcc.mnc=20404
+    setprop ro.oem.key2 FP5_ClientID_Vodafone_NL
+
+on property:persist.radio.sim.mcc.mnc=23407
+    setprop ro.oem.key2 FP5_ClientID_Vodafone_UK
+
+on property:persist.radio.sim.mcc.mnc=23415
+    setprop ro.oem.key2 FP5_ClientID_Vodafone_UK
+
+on property:persist.radio.sim.mcc.mnc=23591
+    setprop ro.oem.key2 FP5_ClientID_Vodafone_UK
+
+on property:persist.radio.sim.mcc.mnc=23592
+    setprop ro.oem.key2 FP5_ClientID_Vodafone_UK
+
+on property:persist.radio.sim.mcc.mnc=26202
+    setprop ro.oem.key2 FP5_ClientID_Vodafone_DE
+
+on property:persist.radio.sim.mcc.mnc=26204
+    setprop ro.oem.key2 FP5_ClientID_Vodafone_DE
+
+on property:persist.radio.sim.mcc.mnc=26209
+    setprop ro.oem.key2 FP5_ClientID_Vodafone_DE
+
+
+
